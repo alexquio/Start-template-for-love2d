@@ -1,7 +1,9 @@
+-- you dont need to care about this file
 function love.load()
   require 'settings'
   
-  loadScene(1)
+  -- start scene goes here, change it if you want
+  loadScene('game')
   
   love.window.setMode(WINDOW_WIDTH, WINDOW_HEIGHT)
   love.window.setTitle(WINDOW_TITLE)
@@ -16,6 +18,7 @@ function love.draw()
 end
 
 function love.keypressed(key)
+  -- if you dont need exit game when escape key pressed, just delete this if statement
   if key == 'escape' then
     love.event.quit()
   end
