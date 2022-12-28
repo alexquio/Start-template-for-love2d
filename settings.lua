@@ -16,7 +16,7 @@ images = {
 
 -- add your scene here
 scenes = {
-  -- name of your scene and require file
+  -- <name of scene> = require <path to scene>
   game  = require 'scenes/game'
 }
 scene = 'game' -- scene name
