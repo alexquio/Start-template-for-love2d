@@ -1,3 +1,5 @@
+-- you can add global variable here, like TILE_SIZE or something like that
+
 WINDOW_TITLE = 'Game' -- change it to whatever you want
 WINDOW_WIDTH = 960 -- width of your window
 WINDOW_HEIGHT = 540 -- height of your window
