@@ -13,5 +13,13 @@ end
 function s:draw()
 end
 
+-- mouse pressed then this function runs
+function s:mousepressed(x, y, button, istouch, presses)
+end
+
+-- same for key here
+function s:keypressed(key)
+end
+
 -- do not delete this bad boy here
 return s
