@@ -9,6 +9,11 @@ anim8 = require 'libraries/anim8'
 camera = require 'libraries/camera'
 flux = require 'libraries/flux'
 
+-- add your images here
+images = {
+  -- <name of asset> = love.graphics.newImage(<path to image>) 
+}
+
 -- add your scene here
 scenes = {
   -- name of your scene and require file
