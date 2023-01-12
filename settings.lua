@@ -5,11 +5,11 @@ WINDOW_WIDTH = 960 -- width of your window
 WINDOW_HEIGHT = 540 -- height of your window
 
 -- require libraries, dont change this
-sti = require 'libraries/sti'
-windfield = require 'libraries/windfield'
-anim8 = require 'libraries/anim8'
-camera = require 'libraries/camera'
-flux = require 'libraries/flux'
+sti = require 'libraries/sti' -- load map from tiled library
+windfield = require 'libraries/windfield' -- physics library
+anim8 = require 'libraries/anim8' -- animetion library
+camera = require 'libraries/camera' -- camera library
+flux = require 'libraries/flux' -- tween library
 
 -- add your images here
 images = {
